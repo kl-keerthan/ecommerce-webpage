@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="head">
+        <header class="header">
+            <img src="flipcart.svg" alt="">
+            <form action="/search" class="search" method="GET">
+                <button class="sec" type="submit" aria-label="Search for Products, Brands and More"
+                    title="Search for Products, Brands and More">
+                    <img class="ser-img" src="search.jpg" alt="" style="width: 30px; height: 30px;">
+                </button>
+                <input class="values" type="text" placeholder="Search for Products, Brands and More">
+            </form>
+            <div class="hh">
+                <div class="login">
+                    <a class="log" href="">
+                        <img src="login.svg" alt="Login" class="log-it" width="24" height="24">
+                        <span>Login</span>
+                    </a>
+                </div>
+                <div class="cart">
+                    <a class="cartit" href="">
+                        <img src="buycart.svg" alt="Cart" class="cart-it" width="24" height="24">
+                        <span>Cart</span>
+                    </a>
+                </div>
+                <div class="shop">
+                    <a class="shopit" href="">
+                        <img src="shop.svg" alt="Shop" class="shop-it" width="24" height="24">
+                        <span>Become a Seller</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="bg-color">
+        <div class="content">
+            <div class="category">
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100" alt=""
+                                style="width: 64px; height: 64px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Kilos</span>
+                    </span>
+                </a>
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100" alt=""
+                                style="width: 64px; height: 64px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Mobiles</span>
+                    </span>
+                </a>
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100"
+                                alt="" style="width: 54px; height: 54px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Fashion</span>
+                    </span>
+                </a>
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100" alt=""
+                                style="width: 64px; height: 64px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Electronics</span>
+                    </span>
+                </a>
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100" alt=""
+                                style="width: 64px; height: 64px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Home & Furniture</span>
+                    </span>
+                </a>
+                <a href="" class="cate-loc">
+                    <div class="center">
+                        <div class="offers" style="width: 64px; height: 64px;">
+                            <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100"
+                                alt="" style="width: 54px; height: 54px;">
+                        </div>
+                    </div>
+                    <span class="offer-name">
+                        <span>Appliances</span>
+                    </span>
+                </a>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide carousel" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="offer1.webp" style="height: 50%;" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="offer2.webp" style="height: 50%" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="offer3.webp" style="height: 50%;" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="offer4.webp" style="height: 50%;" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="offer5.webp" style="height: 50%;" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="best">
+                <div class="bst">
+                    <div class="best-name">
+                        Top Offers
+                    </div>
+                </div>
+                <div class="category">
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/klzhq4w0/jam-spread/w/q/u/510-chocolate-peanut-butter-crunchy-510g-jar-nut-butter-original-imagyzpqqfaguxny.jpeg?q=60"
+                                    alt="" style="width: 136px; height: 156px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Food Sperads</div>
+                            <div class="span-rs">Upto 75% Off</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/l111lzk0/cycle/m/r/e/xc-900-grey-lite-26-15-5-cradiac-21-gear-120-original-imagczuzpxeweczm.jpeg?q=60"
+                                    alt="" style="width: 156px; height: 126px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Geared Cycles</div>
+                            <div class="span-rs">Upto 70% Off</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/shoe/0/c/3/6-rng-854-grey-40-bruton-grey-original-imah3xh6a6ecvmng.jpeg?q=60"
+                                    alt="" style="width: 156px; height: 136px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Top Men's Shoes</div>
+                            <div class="span-rs">Upto 55% Off</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/k6fd47k0/nut-dry-fruit/p/z/7/200-100-natural-california-pouch-happilo-original-imafzvw2tcazeur6.jpeg?q=60"
+                                    alt="" style="height: 156px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Dry Fruits</div>
+                            <div class="span-rs">Upto 75% Off</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/kdbzqfk0/bar/8/h/q/push-up-bar-0-8-long-ankaro-original-imafu9dmvdk3rzvy.jpeg?q=60"
+                                    alt="" style=" height: 126px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Gyms Essentials</div>
+                            <div class="span-rs">From ₹139</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/xif0q/book/r/1/6/it-ends-with-us-it-starts-with-us-combo-of-2-books-original-imah7vdzcbsnrx7a.jpeg?q=60"
+                                    alt="" style="width: 136px; height: 106px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Fiction Books</div>
+                            <div class="span-rs">Upto 70% Off</div>
+                        </div>
+                    </a>
+                    <a href="" class="cate-loc">
+                        <div class="center">
+                            <div class="offers" style="width: 156px; height: 156px;">
+                                <img src="https://rukminim2.flixcart.com/image/240/240/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=60"
+                                    alt="" style="width: 156px; height: 136px;">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <div class="span-name">Top Selling Stationary</div>
+                            <div class="span-rs">Upto 60% Off</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="best2">
+                <div class="o1">
+                    <div class="bst2">
+                        <div class="best-name">
+                            Best of Electronics
+                        </div>
+                    </div>
+                    <div class="category2">
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/240/240/l58iaa80/headphone/k/z/m/nord-buds-ce-oneplus-original-imagfyk4hyvgg6ze.jpeg?q=60"
+                                        alt="" style="width: 106px; height: 156px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Earbuds</div>
+                                <div class="span-rs">From ₹999/-</div>
+                            </div>
+                        </a>
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/240/240/kz1lle80/smartwatch/m/f/q/-original-imagb54tb6fpurze.jpeg?q=60"
+                                        alt="" style="width: 126px; height: 126px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Noise Watches</div>
+                                <div class="span-rs">From ₹1,099</div>
+                            </div>
+                        </a>
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/240/240/kcf4lu80/speaker/mobile-tablet-speaker/h/u/f/srs-xb23-sony-original-imaftk66vjxp86h5.jpeg?q=60"
+                                        alt="" style="height: 156px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Speakers</div>
+                                <div class="span-rs">From ₹1,199</div>
+                            </div>
+                        </a>
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/240/240/xif0q/monitor/z/l/6/-original-imagze3c9aggznc9.jpeg?q=60"
+                                        alt="" style=" height: 126px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Moniters</div>
+                                <div class="span-rs">From ₹38,999</div>
+                            </div>
+                        </a>
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/832/832/xif0q/projector/a/x/l/hy300-pro-4k-support-native-720p-android-11-wifi-bluetooth-original-imah8qfdhmhrvtru.jpeg?q=70&crop=false"
+                                        alt="" style="width: 106px; height: 106px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Home Projecters</div>
+                                <div class="span-rs">From ₹2,999</div>
+                            </div>
+                        </a>
+                        <a href="" class="cate-loc">
+                            <div class="center">
+                                <div class="offers" style="width: 156px; height: 156px;">
+                                    <img src="https://rukminim2.flixcart.com/image/240/240/kl9rssw0/monitor/y/c/2/proart-display-pa278qv-27-pa278qv-asus-original-imagyfpfyzwgdygs.jpeg?q=60"
+                                        alt="" style="width: 156px; height: 136px;">
+                                </div>
+                            </div>
+                            <div class="span">
+                                <div class="span-name">Asus</div>
+                                <div class="span-rs">From ₹59,999</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ubn">
+                    <div class="ubn-img">
+                        <img src="https://rukminim1.flixcart.com/fk-p-flap/1060/1620/image/43ff881706361612.jpeg?q=60"
+                            alt="" style="width: 100%;">
+                    </div>
+                </div>
+
+            </div>
+            <div class="best-1">
+                <div style="width: 30%;">
+                    <div class="spl">
+                        <div class="bst">
+                            <div class="best-name">
+                                Wedding & Gifting Specials
+                            </div>
+
+                            <div class="spl-card">
+                                <div class="card">
+                                    <div class="card1">
+                                        <div class="card-img">
+                                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/shirt/l/d/h/s-dppista-woxen-original-imah8nzz96btmygq.jpeg?q=60"
+                                                class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="cardbody">
+                                            <span class="card-text">Topwear</span>
+                                            <span class="card-price">Min.50% Off</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card1">
+                                        <div class="card-img">
+                                            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/earring/6/h/3/-original-imah4c8tstmfnfkg.jpeg?q=70"
+                                                class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="cardbody">
+                                            <span class="card-text">Jewellery</span>
+                                            <span class="card-price">Min.70% Off</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card1">
+                                        <div class="card-img">
+                                            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/b/n/v/-original-imah82phwpdn7vgr.jpeg?q=70"
+                                                class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="cardbody">
+                                            <span class="card-text">Smart Watches</span>
+                                            <span class="card-price">Min.40% Off</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card1">
+                                        <div class="card-img">
+                                            <img src="https://rukminim1.flixcart.com/image/420/420/xif0q/ethnic-set/a/s/i/m-s-f125-siyafabkurti-original-imah5tq5hdjgh8mq.jpeg?q=60"
+                                                class="card-img-top" alt="...">
+                                        </div>
+                                        <div class="cardbody">
+                                            <span class="card-text">Women's Kurtas</span>
+                                            <span class="card-price">Min.50% Off</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="img-s1">
+                        <img src="https://rukminim1.flixcart.com/www/2140/1460/promos/26/09/2023/ed27f892-1bc6-462f-805b-953f5add4f6a.jpg?q=60"
+                            alt="" style="width: 1033px; height: 646.5px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer py-2 shadow">
+            <div class="foot-info">
+                <div>
+                    <div class="about">ABOUT</div>
+                    <a href="" class="footcolor">Contact Us</a>
+                    <a href="" class="footcolor">About Us</a>
+                    <a href="" class="footcolor">Careers</a>
+                    <a href="" class="footcolor">Flipcart Stories</a>
+                    <a href="" class="footcolor">Press</a>
+
+                </div>
+                <div>
+                    <div class="about">ABOUT</div>
+                    <a href="" class="footcolor">Payments</a>
+                    <a href="" class="footcolor">Shipping</a>
+                    <a href="" class="footcolor">Cancellation & Returns</a>
+                    <a href="" class="footcolor">FAQ</a>
+                </div>
+                <div>
+                    <div class="about">ABOUT</div>
+                    <a href="" class="footcolor">Cancellation & Returns</a>
+                    <a href="" class="footcolor">Terms Of Use</a>
+                    <a href="" class="footcolor">Security</a>
+                    <a href="" class="footcolor">Privacy</a>
+                    <a href="" class="footcolor">Sitemap</a>
+                    <a href="" class="footcolor">EPR Compliance</a>
+                </div>
+                <div>
+                    <div class="about">Registered Office Address:</div>
+                    <div>
+                        <p class="footp">Flipkart Internet Private Limited, </p>
+                        <p class="footp"> Buildings Alyssa, Begonia & </p>
+                        <p class="footp"> Outer Ring Road, Devarabeesanahalli Village, </p>
+                        <p class="footp"> Bengaluru, 560103, </p>
+                        <p class="footp"> Karnataka, India</p>
+                        <p class="footp"> CIN : U51109KA2012PTC066107 </p>
+                        <p class="footp"> Telephone:
+                            <a href="">2548623736</a> /
+                            <a href="">7675643435</a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <p class="footflip">&copy; 2007-2025 Flipcart.com</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
+.
+.
