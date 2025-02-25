@@ -66,7 +66,6 @@
     font-size: 20px;
     justify-content: space-between;
     text-decoration: none;
-
 }
 .login{
     width: 22%;
@@ -132,7 +131,6 @@
     padding: 10px 0;
 }
 .cate-loc{
-    /* min-width: 90px; */
     padding: 16px;
     cursor: pointer;
     text-decoration: none;
@@ -142,7 +140,6 @@
 .center{
     text-align: center;
     margin-bottom: 10px;
-
 }
 .offer-name{
     display: flex;
@@ -301,7 +298,6 @@
     justify-content: center;
     margin-top: 30px;
 }
-
 @media(max-width:1500px){
     .phone{
         visibility: hidden;
@@ -341,16 +337,15 @@
     .best{
         overflow: auto;
     }
+}
+@media(max-width:1100px){
+    .hh-name{
+        display: none;
+     }
+    .wid{
+        width: 25px;
     }
-
-    @media(max-width:1100px){
-        .hh-name{
-            display: none;
-        }
-        .wid{
-            width: 25px;
-        }
-    }
+}
  @media (max-width: 768px) {
     .header{
         padding: 12px 18px;
@@ -378,10 +373,7 @@
         position: relative;
     }
  }
-    
-
 @media (max-width: 600px) {
-    
     .padd{
         padding-left: 10px;
     }    
